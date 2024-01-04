@@ -1,4 +1,4 @@
-/* App.css */
+
 .data-table {
   width: 100%;
   border-collapse: collapse;
@@ -10,10 +10,11 @@
   border: 1px solid #ddd;
   padding: 8px;
   text-align: center;
-  
+
 }
+
 .data-table td:first-of-type {
-  
+
   text-align: left;
 }
 
@@ -28,13 +29,9 @@
 
 
 .data-table td:nth-child(2) {
-  background-color: #e8f4fc; 
+  background-color: #e8f4fc;
 }
 
-/* .data-table th:first-of-type:hover {
-  cursor:auto;
-  text-decoration: none;
-} */
 .data-table tr:hover {
   cursor: pointer;
   text-decoration: underline;
@@ -43,14 +40,15 @@
 .change-positive {
   font-weight: 600;
   color: green;
-  
+
 }
 
 .change-negative {
   font-weight: 600;
   color: red;
 }
-.today{
+
+.today {
   display: flex;
   flex-direction: row;
   align-content: space-around;
