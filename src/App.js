@@ -85,7 +85,7 @@ function App() {
 
 
   const selectRow = (data) => {
-    // Здесь вы можете настроить данные для графика в соответствии с выбранной строкой
+
     setChartOptions({
       title: {
         text: data.category
@@ -99,17 +99,7 @@ function App() {
     });
   };
 
-  // const chartOptions = {
-  //   // Настройки Highcharts
-  //   title: {
-  //     text: 'График'
-  //   },
-  //   series: [
-  //     {
-  //       data: chartData
-  //     }
-  //   ]
-  // };
+
 
   return (
     <div className="App">
